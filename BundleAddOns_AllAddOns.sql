@@ -1,5 +1,5 @@
 ------------------------- Query to pull users with bundle add_ons and all add_ons ----------------------------------------
-
+------
 CREATE TEMP FUNCTION STRING_DEDUP(str STRING) AS (
 (SELECT STRING_AGG(item ORDER BY item) FROM (
 SELECT DISTINCT item FROM UNNEST(SPLIT(str)) item 
