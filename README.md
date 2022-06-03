@@ -1,2 +1,2 @@
 ------------------------------------------------------------
-Identifying users with non-bundle add_ons excluding RSN. 
+Identifying users with add_ons that are not a part of the bundle they're on excluding RSN. 
